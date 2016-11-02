@@ -1,0 +1,143 @@
+/*******************
+GENERAL
+********************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none; 
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  
+}
+
+
+
+/******************* Header & Navigation ********************/
+header {
+  padding: 20px 0;
+}
+
+header img {
+  float: left;
+  width: 25%;
+}
+
+.main-nav {
+  padding: 50px 0 0 0;
+  margin: 0;
+  text-align: right;
+  float: right;
+  width: 75%;
+}
+
+.main-nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+section {
+  padding: 75px 0;
+}
+
+.home-top {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.home-top img {
+  width: 100%;
+  height: auto;
+}
+
+.left-column {
+  width: 25%;
+  float: left;
+  padding: 10px 0;
+}
+.left-column ul li {
+  color:#000;
+}
+.right-column {
+  width: 70%;
+  float: left;
+  background-color:  ;
+  padding: 20px;
+} 
+.right-column p {
+color:#000;
+}
+.right-column ul li{
+  color:#000;
+}
+/*******************
+FOOTER
+********************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px
+}
+
+/*******************
+home gallery
+********************/
+
+.home-gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.home-gallery li {
+  background-color: #A52222;
+  color: #bdc3c7;
+}
+
+.home-gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/*******************
+menu gallery
+********************/
+
+.menu-gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
